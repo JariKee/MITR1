@@ -1,0 +1,374 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+body{
+    
+}
+
+header{
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(164, 146, 178);
+    position:fixed; 
+    z-index: 1;
+}
+
+.logo{
+    margin: 2rem;
+    border-radius: 50rem;
+    max-height: 4rem;
+    
+}
+
+.header-text{
+    font-size: 1.75rem;
+    padding: 0.5rem;
+    margin: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.header-text:hover{
+    background-color: white;
+    border-radius:1rem ;
+    color: rgb(59, 15, 87);
+}
+
+.background{
+    background-image: url('/img/background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;  
+}
+
+.background-text{
+    position: absolute;
+    bottom: 7%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: rgb(164, 146, 178);
+}
+
+.background-container{
+    display: flex;
+    justify-content: center;
+}
+
+.background-button{
+    position: absolute;
+    bottom: 0;
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 5rem;
+    border-top: 0.1rem solid rgb(164, 146, 178);
+    border-right: 0.1rem solid rgb(164, 146, 178);
+    border-left: 0.1rem solid rgb(164, 146, 178);
+    border-bottom: none;
+    color: rgb(164, 146, 178);
+    border-radius: 2rem 2rem  0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-button:hover{
+    border: none;
+    background-color: rgb(170, 59, 121);
+    transition: background-color 0.3s;
+    color:white;
+    cursor: pointer;
+}
+
+.heading-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.heading{
+    margin-top: 10rem; 
+    display: block;
+    margin-bottom: 10rem;
+   
+}
+
+.heading-img{
+    max-width: 25%;
+    height: 30rem;
+    margin-right: 10rem;
+}
+
+
+
+.heading-header{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    
+}
+
+.heading-text{
+    
+    font-size: 2rem;
+}
+
+.heading-button{
+    width: 15rem;
+    height: 3rem;
+    color: rgb(164, 146, 178);
+    border: 0.1rem solid rgb(164, 146, 178);   
+    background-color: white;
+}
+
+.container-heading-button{
+    display: flex;
+    justify-content: center;  
+    margin-top: 5rem;
+    
+}
+
+.heading-button:hover{
+    cursor: pointer;
+    border: 0.1rem solid rgb(164, 146, 178);
+    background-color: rgb(170, 59, 121);
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.collectie{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.collectie-titel{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 3.5rem;
+}
+
+.collectie-img{
+    width: 30rem;
+    height: 42rem;
+}
+
+.collectie-text{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.collectie-container1:hover{
+    .collectie-text1{
+        
+        background-color: rgb(170, 59, 121);
+        transition: background-color 0.3s;
+    }
+}
+
+.collectie-container2:hover{
+    .collectie-text2{
+        background-color: rgb(170, 59, 121);
+        transition: background-color 0.3s;
+    }
+}
+
+.collectie-container3:hover{
+    .collectie-text3{
+        background-color: rgb(170, 59, 121);
+        transition: background-color 0.3s;
+    }
+}
+
+.collectie-container4:hover{
+    .collectie-text4{
+        background-color: rgb(170, 59, 121);
+        transition: background-color 0.3s;
+    }
+}
+
+
+
+.bestellenbijons{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 10rem;
+}
+
+.kaartjes{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 40rem;
+    flex-wrap: wrap;
+}
+
+.kaart {
+    display: inline-block;
+    width: 30rem;
+    height: 20rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.kaart-img{
+    width: 10rem;
+    height: 9rem;
+}
+
+.kaart-header{
+    font-size: 3rem;
+}
+
+.kaart-text{
+    font-size: 1.5rem;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    margin-top: 15rem;
+    flex-wrap: wrap;
+}
+
+.show-header{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    
+}
+
+.show-text{
+    font-size: 1.5rem;
+    
+}
+
+.peetje{
+    width: 42rem;
+}
+
+.show-video{
+    width: 60rem;
+    height: 35rem;
+}
+
+@media screen and (max-width: 85rem){
+    .collectie-img{
+        width: 20rem;
+        height: 30rem;
+    }
+    .collectie-titel{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 78rem){
+    .show{
+        gap:3rem
+    }
+    .show-video{
+        width: 40rem;
+    }
+    .peetje{
+        width: 38rem;
+    }
+}
+
+@media screen and (max-width: 69rem){
+    .header-text{
+        font-size: 1.2rem;
+    }
+
+    .heading{
+        font-size: 1.5rem;
+    }
+    .heading-header{
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .heading-text{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .background-text{
+        font-size: 2rem;
+    }
+    .heading-img{
+        margin-right: 2rem;
+        max-width: 40%;
+        height: 20rem;
+    }
+    .heading-button{
+        width: 15rem;
+        height: 3rem;
+    }
+    .collectie{
+        gap:2rem
+    }
+    .collectie-img{
+        width: 17rem;
+        height: 26rem;
+    }
+    .kaartjes{
+        gap:20rem;
+    }
+}
+
+@media screen and (max-width: 54rem){
+    .kaartjes{
+        gap: 3rem;
+    }
+    .kaart{
+        width: 24rem;
+    }
+}
+
+@media screen and (max-width:32rem ){
+    .header-text{
+        margin: 0.90rem;
+        padding: 0.40rem;
+    }
+    .background{
+        height: 70vh;
+    }
+    .background-text{
+        bottom:34%;
+        font-size: 1.4rem;
+    }
+    .background-button{
+        bottom:30%;
+        height: 3rem;
+        width: 8rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:16rem ){
+    .kaartjes{
+        margin-bottom: 0rem;
+        gap: 0rem;
+    }
+}
