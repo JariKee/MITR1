@@ -21,7 +21,6 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: rgb(164, 146, 178);
-    position:fixed; 
     z-index: 1;
 }
 
@@ -44,6 +43,13 @@ header{
     background-color: white;
     border-radius:1rem ;
     color: rgb(59, 15, 87);
+}
+
+
+
+.winkelmand:hover{
+    background-color:rgb(255, 255, 255);
+    color: rgb(164, 146, 178);
 }
 
 .background{
@@ -113,7 +119,10 @@ header{
     margin-right: 10rem;
 }
 
-
+.winkelmand{
+    width: 10rem;
+    height: 10rem;
+}
 
 .heading-header{
     font-size: 4rem;
@@ -129,7 +138,7 @@ header{
 .heading-button{
     width: 15rem;
     height: 3rem;
-    color: rgb(164, 146, 178);
+    color: #a492b2;
     border: 0.1rem solid rgb(164, 146, 178);   
     background-color: white;
 }
@@ -275,27 +284,7 @@ header{
     height: 35rem;
 }
 
-@media screen and (max-width: 85rem){
-    .collectie-img{
-        width: 20rem;
-        height: 30rem;
-    }
-    .collectie-titel{
-        font-size: 2.5rem;
-    }
-}
 
-@media screen and (max-width: 78rem){
-    .show{
-        gap:3rem
-    }
-    .show-video{
-        width: 40rem;
-    }
-    .peetje{
-        width: 38rem;
-    }
-}
 
 .reviews-header{
     display: flex;
@@ -351,10 +340,12 @@ header{
     height: 100%;
     width: 80%;
     flex-wrap: wrap;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .review p{
-    font-size: 65%;
+    font-size: 1.4rem;
     font-family: 'Kanit', sans-serif;
     padding-bottom: 2rem;
     border-bottom: 0.5rem solid rgb(170, 59, 121, 0.5);
@@ -370,6 +361,7 @@ header{
 footer{
     background-color: rgb(164, 146, 178);
     color: white;
+    height: 40rem;
     
     
 }
@@ -416,13 +408,72 @@ li{
 }
 
 .aanmelden:hover{
-    
-        background-color: rgb(91, 32, 65);
-        transition: background-color 0.3s;
-        cursor: pointer;
-    
+    background-color: rgb(91, 32, 65);
+    transition: background-color 0.3s;
+    cursor: pointer; 
 }
 
+.container-kaartje{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.product-350{
+    margin-top: 5rem;
+}
+
+.product-kaartje{
+    width: 26rem;
+    height: 40rem;
+    background: #F8F8FB;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+
+.product-img{   
+    width: 27rem;
+    height: 17rem;
+    margin-bottom: 7rem;
+}
+
+.product-naam{
+    margin-left: 1rem;
+    margin-bottom: 10rem;
+}
+
+.product-prijs{
+    margin-left: 1rem;
+    display: flex;
+    color:rgb(234, 54, 152);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 85rem){
+    .collectie-img{
+        width: 20rem;
+        height: 30rem;
+    }
+    .collectie-titel{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 78rem){
+    .show{
+        gap:3rem
+    }
+    .show-video{
+        width: 40rem;
+    }
+    .peetje{
+        width: 38rem;
+    }
+}
 
 @keyframes fadeIn{
     from{
@@ -492,12 +543,6 @@ li{
 }
 
 @media screen and (max-width:32rem ){
-    .header-text{
-        margin: 0.45rem;
-        padding: 0.25rem;
-        font-size: 0.8rem;
-        
-    }
     .background{
         height: 70vh;
     }
@@ -513,10 +558,19 @@ li{
     }
     .foter-content{
         gap: 2rem;
+        display: flex;
+        justify-content: center;
         
     }
     .footer-rij{
-        width: 15rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+
     }
 }
 
