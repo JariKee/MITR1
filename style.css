@@ -135,8 +135,13 @@ header{
 }
 
 .heading-button{
+<<<<<<< HEAD
     width: 20rem;
     height: 5rem;
+=======
+    width: 15rem;
+    height: 3rem;
+>>>>>>> 464f71fee68734106bcc7be7f32ca54e5fb2617b
     color: #a492b2;
     border: 0.1rem solid rgb(164, 146, 178);   
     background-color: white;
@@ -344,7 +349,11 @@ header{
 }
 
 .review p{
+<<<<<<< HEAD
     font-size: 1.2rem;
+=======
+    font-size: 1.4rem;
+>>>>>>> 464f71fee68734106bcc7be7f32ca54e5fb2617b
     font-family: 'Kanit', sans-serif;
     padding-bottom: 2rem;
     border-bottom: 0.5rem solid rgb(170, 59, 121, 0.5);
@@ -418,6 +427,7 @@ li{
     gap: 3rem;
     flex-wrap: wrap;
     margin-bottom: 3rem;
+<<<<<<< HEAD
 }
 
 .product-350{
@@ -492,6 +502,40 @@ li{
 .link-productpagina{
     color: black;
     text-decoration: none;
+=======
+}
+
+.product-350{
+    margin-top: 5rem;
+}
+
+.product-kaartje{
+    width: 26rem;
+    height: 40rem;
+    background: #F8F8FB;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+
+.product-img{   
+    width: 27rem;
+    height: 17rem;
+    margin-bottom: 7rem;
+}
+
+.product-naam{
+    margin-left: 1rem;
+    margin-bottom: 10rem;
+}
+
+.product-prijs{
+    margin-left: 1rem;
+    display: flex;
+    color:rgb(234, 54, 152);
+    font-size: 1.6rem;
+    font-weight: 600;
+>>>>>>> 464f71fee68734106bcc7be7f32ca54e5fb2617b
 }
 
 @media screen and (max-width: 85rem){
@@ -514,8 +558,11 @@ li{
     .peetje{
         width: 38rem;
     }
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> 464f71fee68734106bcc7be7f32ca54e5fb2617b
 }
 
 @keyframes fadeIn{
@@ -627,6 +674,10 @@ li{
         justify-content: center;
         align-items: center;
         text-align: center;
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 464f71fee68734106bcc7be7f32ca54e5fb2617b
 
     }
 
