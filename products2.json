@@ -1,0 +1,65 @@
+{
+    "products": [
+      {
+        "productImgSrc": "/img/mineralblue.webp",
+        "productName": "Yeezy Foam Runner Mineral Blue",
+        "productPrice": "255,00",
+        "productMaterial": "Foam"
+      },
+      {
+        "productImgSrc": "/img/xmcarbon.webp",
+        "productName": "Yeezy Foam Runner MX Carbon",
+        "productPrice": "294,00",
+        "productMaterial": "Foam"
+      },
+      {
+        "productImgSrc": "/img/onyx.webp",
+        "productName": "Yeezy Foam Runner Onyx",
+        "productPrice": "230,00",
+        "productMaterial": "Foam"
+      },
+      {
+        "productImgSrc": "/img/ochre.webp",
+        "productName": "Yeezy Foam Runner Ochre",
+        "productPrice": "182,00",
+        "productMaterial": "Foam"
+      },
+      {
+        "productImgSrc": "/img/vermillon.webp",
+        "productName": "Yeezy Foam Runner Vermillon",
+        "productPrice": "250,00",
+        "productMaterial": "Foam"
+      },
+      {
+        "productImgSrc": "/img/enflameorange.webp",
+        "productName": "Yeezy Slide Enflame Orange",
+        "productPrice": "299,00",
+        "productMaterial": "Rubber"
+        
+      },
+      {
+        "productImgSrc": "/img/bone.webp",
+        "productName": "Yeezy Slide Bone",
+        "productPrice": "299,00",
+        "productMaterial": "Rubber"
+      },
+      {
+        "productImgSrc": "/img/glowgreen.webp",
+        "productName": "Yeezy Slide Glow Green",
+        "productPrice": "139,00",
+        "productMaterial": "Rubber"
+      },
+      {
+        "productImgSrc": "/img/resin.webp",
+        "productName": "Yeezy Slide Resin",
+        "productPrice": "149,00",
+        "productMaterial": "Rubber"
+      },
+      {
+        "productImgSrc": "/img/slategrey.webp",
+        "productName": "Yeezy Slate Grey",
+        "productPrice": "170,00",
+        "productMaterial": "Rubber"
+      }
+    ]
+  }

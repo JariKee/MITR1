@@ -67,10 +67,13 @@ header{
     position: absolute;
     bottom: 40%;
     left: 5rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: rgb(164, 146, 178);
     width: 30rem;
+    text-align: center;
 }
+
+
 
 .background-container{
     display: flex;
@@ -79,11 +82,11 @@ header{
 
 .background-button{
     position: absolute;
-    left: 10rem;
-    bottom: 33%;
-    font-size: 1.5rem;
-    width: 10rem;
-    height: 5rem;
+    left: 11rem;
+    bottom: 30%;
+    font-size: 2.5rem;
+    width: 17rem;
+    height: 7rem;
     border: 0.1rem solid rgb(164, 146, 178);
     color: rgb(164, 146, 178);
     display: flex;
@@ -135,13 +138,8 @@ header{
 }
 
 .heading-button{
-<<<<<<< HEAD
     width: 20rem;
     height: 5rem;
-=======
-    width: 15rem;
-    height: 3rem;
->>>>>>> 464f71fee68734106bcc7be7f32ca54e5fb2617b
     color: #a492b2;
     border: 0.1rem solid rgb(164, 146, 178);   
     background-color: white;
@@ -191,14 +189,15 @@ header{
 }
 
 .collectie-container1:hover{
+    cursor: pointer;
     .collectie-text1{
-        
         background-color: rgb(170, 59, 121);
         transition: background-color 0.3s;
     }
 }
 
 .collectie-container2:hover{
+    cursor: pointer;
     .collectie-text2{
         background-color: rgb(170, 59, 121);
         transition: background-color 0.3s;
@@ -206,18 +205,23 @@ header{
 }
 
 .collectie-container3:hover{
-    .collectie-text3{
+    cursor: pointer;
+    .collectie-text3{  
         background-color: rgb(170, 59, 121);
         transition: background-color 0.3s;
     }
 }
 
 .collectie-container4:hover{
+    cursor: pointer;
     .collectie-text4{
         background-color: rgb(170, 59, 121);
         transition: background-color 0.3s;
+        
     }
+    
 }
+
 
 
 
@@ -322,7 +326,8 @@ header{
 }
 
 .review{
-    width: 30rem;
+    
+    width: 40rem;
     min-height: 20rem;
     background-color: white;
     list-style: none;
@@ -337,6 +342,7 @@ header{
 }
 
 .reviews{
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -349,11 +355,7 @@ header{
 }
 
 .review p{
-<<<<<<< HEAD
-    font-size: 1.2rem;
-=======
-    font-size: 1.4rem;
->>>>>>> 464f71fee68734106bcc7be7f32ca54e5fb2617b
+    font-size: 1.5rem;
     font-family: 'Kanit', sans-serif;
     padding-bottom: 2rem;
     border-bottom: 0.5rem solid rgb(170, 59, 121, 0.5);
@@ -369,7 +371,8 @@ header{
 footer{
     background-color: rgb(164, 146, 178);
     color: white;
-    height: 40rem;
+    height: 45rem;
+    
     
     
 }
@@ -391,7 +394,7 @@ li{
 }
 
 .footer-rij{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     width: 20rem;
     
 }
@@ -421,13 +424,19 @@ li{
     cursor: pointer; 
 }
 
+.container-Jaap{
+    display: flex;
+    justify-content: center;
+    min-height: 75rem;
+}
+
 .container-kaartje{
     display: flex;
     justify-content: center;
     gap: 3rem;
     flex-wrap: wrap;
     margin-bottom: 3rem;
-<<<<<<< HEAD
+    max-width: 175rem;
 }
 
 .product-350{
@@ -502,41 +511,218 @@ li{
 .link-productpagina{
     color: black;
     text-decoration: none;
-=======
 }
 
-.product-350{
+.jaapie{
+    margin-left: 5rem;
     margin-top: 5rem;
-}
-
-.product-kaartje{
-    width: 26rem;
-    height: 40rem;
-    background: #F8F8FB;
-    justify-content: center;
-    flex-direction: column;
- 
-}
-
-.product-img{   
-    width: 27rem;
-    height: 17rem;
-    margin-bottom: 7rem;
-}
-
-.product-naam{
-    margin-left: 1rem;
-    margin-bottom: 10rem;
-}
-
-.product-prijs{
-    margin-left: 1rem;
     display: flex;
-    color:rgb(234, 54, 152);
-    font-size: 1.6rem;
-    font-weight: 600;
->>>>>>> 464f71fee68734106bcc7be7f32ca54e5fb2617b
+    flex-direction: row;
+    align-items: flex-start;
+    height: 50rem;
 }
+
+.product-page-h2{
+    font-size: 3rem;
+    margin-top: 4rem;
+    width: 40rem;
+}
+
+.product-pagina-img{
+    width: 70rem;
+    height: 50rem;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.container-h2-product{
+    display: flex;
+    gap: 2rem;
+    
+}
+
+
+.kleurselector > *{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 10rem;
+    flex-wrap: wrap;
+     
+}
+
+.kleurselector{
+    margin-top: 5rem;
+    gap: 5rem;
+    display: flex;
+}
+
+.productpagina-prijs{
+    margin-top: 10rem;
+    color: rgb(234, 54, 152);
+    font-size: 2.5rem;
+}
+
+.a{
+    background-color: #350dd4;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    
+}
+
+.b{
+    background-color: rgb(201, 245, 230);
+    cursor: pointer;
+   
+}
+
+.c{
+    background-color: rgb(208, 207, 207);
+    cursor: pointer;
+    
+    
+}
+
+.d{
+    background-color: whitesmoke;
+    cursor: pointer;
+    
+}
+.e{
+    background-color: #9fcef5;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem; 
+}
+.f{
+    background-color: rgb(251, 7, 7);
+    cursor: pointer;
+   
+}
+
+.g{
+    background-color: rgb(25, 183, 251);
+    cursor: pointer;
+    
+    
+}
+
+.h{
+    background-color: rgb(250, 22, 83);
+    cursor: pointer;
+    
+}
+
+.z{
+    border-radius: 2rem;
+}
+
+
+.text-productpagina{
+    width: 50rem;
+    font-size: 2rem;
+    margin-left: 15rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.product-button{
+    width: 20rem;
+    height: 5rem;
+    color: white;
+    border: 0.1rem solid rgb(164, 146, 178);   
+    background-color: white;
+    margin-left: 30rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 1.8rem;
+    background-color: rgb(170, 59, 121);
+}
+
+.product-button:hover{
+    border: none;
+    background-color: rgb(120, 43, 87);
+    transition: background-color 0.3s;
+    color:white;
+    cursor: pointer;
+    
+}
+
+.glouck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+
+.peetje1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    
+}
+
+#nameInput{
+    border-radius: 1rem;
+    border: 0.2rem solid rgb(164, 146, 178);
+    width: 10rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+
+#materialSelect{
+    border-radius: 1rem;
+    border: 0.2rem solid rgb(164, 146, 178);
+    width: 10rem;
+    text-align: center;
+}
+
+
+
+
+#priceRange {
+    
+    margin-bottom: 20px;
+    appearance: none;
+    height: 8px;
+    background-color: #ddd;
+    outline: none;
+    border-radius: 10px;
+  }
+  
+  #priceRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(164, 146, 178);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+    #priceRange::-webkit-slider-thumb:hover{
+    background-color:rgb(120, 43, 87) ;
+  }
+  
+
+  
+  #priceLabel {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 18px;
+  }
+  
+
 
 @media screen and (max-width: 85rem){
     .collectie-img{
@@ -558,24 +744,69 @@ li{
     .peetje{
         width: 38rem;
     }
-<<<<<<< HEAD
-    
 
-=======
->>>>>>> 464f71fee68734106bcc7be7f32ca54e5fb2617b
-}
-
-@keyframes fadeIn{
-    from{
-        opacity: 0;
-        filter: blur(10px);
+    .kleurbutton{
+        width: 5rem;
+        height: 5rem; 
     }
 
-    to{
-        opacity: 1;
-        filter: blur(0);
+    .product-pagina-img{
+        width: 40rem;
+        height: 30rem;
+    }
+
+    .text-productpagina{
+        margin-left: 4rem;
+        font-size:1.5rem;
+        width: 30rem;
+    }
+    .jaapie{
+        height: 30rem;
+        margin-left: 0;
+    }
+    .kleurselector{
+        display: flex;
+        gap: 2rem;
+        
+    }
+    .product-button{
+        height: 3rem;
+        width: 15rem;
+        margin-left: 12rem;
+        margin-top: 3rem;
+        font-size: 1.4rem;
+    }
+
+
+
+    .product-page-h2{
+        width: 20rem;
     }
 }
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: rgb(120, 43, 87);
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+
 
 @media screen and (max-width: 50rem){
     .arrow{
@@ -586,7 +817,35 @@ li{
     }
 }
 
+@media screen and (max-width: 44rem){
+    .product-page-h2{
+        width: 10rem;
+        font-size: 2rem;
+    }
+    .product-pagina-img{
+        width: 35rem;
+    }
+    .text-productpagina{
+        font-size: 1.2rem;
+    }
+    .productpagina-prijs{
+        margin-top: 3rem;
+    }
+    .kleurselector{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+       
+    }
+    .kleurbutton{
+        width: 4rem;
+        height: 4rem;
+    }
+    
+}
+
 @media screen and (max-width: 69rem){
+
     .header-text{
         font-size: 1.2rem;
     }
@@ -604,6 +863,15 @@ li{
     }
     .background-text{
         font-size: 2rem;
+        bottom: 10rem;
+        bottom: 10%;
+        left: 4%;
+    }
+    .background-button{
+        bottom: 5rem;
+        font-size: 2rem;
+        height: 5rem;
+        width: 15rem;
     }
     .heading-img{
         margin-right: 2rem;
@@ -621,6 +889,9 @@ li{
     .kaartjes{
         gap:20rem;
     }
+    footer{
+        height: 85rem;
+    }
 }
 
 @media screen and (max-width: 54rem){
@@ -631,35 +902,45 @@ li{
         width: 24rem;
     }
     .product-winkelmand{
-        width: 45rem;
+        width: 43rem;
         height: 17rem;
         
     }
     .product-naam-winkelmand{
-        font-size: 2rem;
+        font-size: 1.8rem;
+        width: 15rem;
     }
     .winkelmand-img{
-        width: 23rem;
+        width: 21rem;
         height: 13rem;
     }
     .winkelmand-header{
-        font-size: 2.2rem;
+        font-size: 2.0rem;
     }
+    .product-prijs{
+        font-size: 1.8rem;
+    
+    }
+    
+    
 }
 
-@media screen and (max-width:32rem ){
+@media screen and (max-width:34rem ){
     .background{
         height: 80vh;
     }
     .background-text{
-        bottom:34%;
+        left: 20%;
+        bottom:24%;
         font-size: 1.4rem;
     }
     .background-button{
-        bottom:30%;
+        left: 45%;
+        bottom:20%;
         height: 3rem;
         width: 8rem;
         font-size: 1.2rem;
+        
     }
     .foter-content{
         gap: 2rem;
@@ -674,15 +955,32 @@ li{
         justify-content: center;
         align-items: center;
         text-align: center;
-<<<<<<< HEAD
-=======
+    }
+    footer{
+        height: 100rem;
+    }
+    .product-pagina-img{
+        width: 28rem;
         
->>>>>>> 464f71fee68734106bcc7be7f32ca54e5fb2617b
-
+    }
+    .text-productpagina{
+        width: 22rem;
+    }
+    .product-button{
+        margin-left: 7.2rem;
+    }
+    .jaapie{
+        width: 45rem;
+        margin-top: 1rem;
+    }
+    .a{
+        display: none;
+    }
+    .header-text{
+        margin-left: 0;
+        padding: 0;
     }
 
-
-    
 }
 
 @media screen and (max-width:16rem ){
@@ -690,4 +988,6 @@ li{
         margin-bottom: 0rem;
         gap: 0rem;
     }
+   
 }
+

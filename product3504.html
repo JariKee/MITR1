@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/6f9a774773.js" crossorigin="anonymous"></script>
+    <script src="functions.js"></script>
 </head>
 <body>
        
-    <header style="position: fixed;">
-        <img class="logo" src="/img/logo.webp" alt="">
+    <header>
+        <a href="/index.html">
+            <img class="logo" src="/img/logo.webp" alt="">
+        </a>
 
         <section>
             <a class="header-text" href="/jaar.html">DOOR HET HELE JAAR</a>
@@ -18,7 +22,39 @@
         </section>
     </header>
 
-    <footer>
+    <section class="jaapie">
+        <img class="product-pagina-img" src="/img/oreo.webp" alt="">
+        <ul>
+            <div class="container-h2-product">
+                <h2 class="product-page-h2">Yeezy 350 v2 Oreo</h2>
+                <button style="background-color: rgb(254, 254, 254);" class="kleurbutton a"></button>
+            </div>
+            <div class="kleurselector">
+                <button style="background-color: blue;" onclick="window.location.href='/product3501.html';"; class="kleurbutton b"></button>
+                <button onclick="window.location.href='/product3502.html';"; class="kleurbutton b"></button>
+                <button onclick="window.location.href='/product3503.html';"; class="kleurbutton c"></button>
+            </div>
+            <h2 class="productpagina-prijs">365,00</h2>
+        </ul>
+        
+        
+    </section>
+    
+    <p class="text-productpagina">
+        Weinig sneakers hebben zo snel hun stempel op de hedendaagse sneakerwereld kunnen drukken als de Yeezy Boost 350.
+         Iedere drop van het model raakt uitverkocht en dit al vanaf 2015, 
+         iets wat maar voor weinig modellen is weggelegd.
+        De Oreo Yeezy heeft een zwarte bovenkant met een witte band en de SPLY 350 branding erop. 
+        De schoen heeft verder een doorschijnende zwarte midsole
+        
+    </p>
+    <button onclick="PopUp()" class="product-button">Add to cart</button>
+    
+    <div id="snackbar">Product Toegevoegd aan de winkelwagen!</div>
+    
+   
+
+    <footer >
         <section class="footer-content">
             <ul class="footer-rij">
                 <h2 class="footer-header">Waarom Yeezy?</h2>

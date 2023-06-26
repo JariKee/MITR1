@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/6f9a774773.js" crossorigin="anonymous"></script>
+    <script src="functions.js"></script>
 </head>
 <body>
        
-    <header style="position: fixed;">
-        <img class="logo" src="/img/logo.webp" alt="">
-
+    <header>
+        <a href="/index.html">
+            <img class="logo" src="/img/logo.webp" alt="">
+        </a>
         <section>
             <a class="header-text" href="/jaar.html">DOOR HET HELE JAAR</a>
             <a class="header-text" href="/Zomer.html">ZOMER COLLECTIE</a>
@@ -17,6 +20,38 @@
             <link rel="stylesheet" href="style.css">
         </section>
     </header>
+
+    <section class="jaapie">
+        <img class="product-pagina-img" src="/img/arzareth.webp" alt="">
+        <ul>
+            <div class="container-h2-product">
+                <h2 class="product-page-h2">Yeezy 700 v3 Arzareth</h2>
+                <button class="kleurbutton e"></button>
+            </div>
+            <div class="kleurselector">
+                <button onclick="window.location.href='/product7002.html';"; class="kleurbutton f"></button>
+                <button onclick="window.location.href='/product7003.html';"; class="kleurbutton g"></button>
+                <button onclick="window.location.href='/product7004.html';"; class="kleurbutton h"></button>
+            </div>
+            <h2 class="productpagina-prijs">399,00</h2>
+        </ul>
+        
+        
+    </section>
+    
+    <p class="text-productpagina">
+        Net als het OG model wordt dit paar geleverd met zwarte details, evenals de witte midsole. 
+        Blauwe kleuren komen aan op het ijsdoorschijnende rubberen bovenwerk van de kooi. 
+        Het bovenwerk van de sneaker is gecreëerd van het klassieke primeknit materiaal. 
+        Deze blauwe kleuren worden aangevuld met pastelkleuren en grijs. Om de sneaker af 
+        te maken beschikt ook deze colorway over een glow-in-the-dark effect.
+        
+    </p>
+    <button onclick="PopUp()" class="product-button">Add to cart</button>
+    
+    <div id="snackbar">Product Toegevoegd aan de winkelwagen!</div>
+    
+   
 
     <footer>
         <section class="footer-content">

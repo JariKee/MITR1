@@ -35,7 +35,7 @@ var materialSelect = document.getElementById("materialSelect");
 var nameInput = document.getElementById("nameInput");
 var productContainer = document.getElementById("productContainer");
 
-fetch("products.json")
+fetch("products2.json")
   .then(function(response) {
     return response.json();
   })
@@ -51,7 +51,7 @@ fetch("products.json")
       var selectedMaterial = materialSelect.value;
       var searchText = nameInput.value.toLowerCase().trim();
 
-        var filteredProducts = products.filter(function(product) {
+      var filteredProducts = products.filter(function(product) {
         var isPriceMatched = parseFloat(product.productPrice) <= selectedPrice;
         var isMaterialMatched = selectedMaterial === "All" || product.productMaterial === selectedMaterial;
         var isNameMatched = product.productName.toLowerCase().includes(searchText);

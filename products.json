@@ -1,0 +1,73 @@
+{
+    
+      "products": [
+        {
+          "productLink": "/product3501.html",
+          "productImgSrc": "/img/bluedazzling.webp",
+          "productName": "Yeezy 350 v2 Blue Dazzling",
+          "productPrice": "365,00",
+          "productMaterial": "350"
+        },
+        {
+          "productImgSrc": "/img/bluetint.webp",
+          "productName": "Yeezy 350 v2 Blue Tint",
+          "productPrice": "284,00",
+          "productMaterial": "350"
+        },
+        {
+          "productImgSrc": "/img/taillight.webp",
+          "productName": "Yeezy 350 v2 Tail light",
+          "productPrice": "400,00",
+          "productMaterial": "350"
+        },
+        {
+          "productImgSrc": "/img/oreo.webp",
+          "productName": "Yeezy 350 v2 Oreo",
+          "productPrice": "365,00",
+          "productMaterial": "350"
+        },
+        {
+          "productImgSrc": "/img/mxoat.webp",
+          "productName": "Yeezy 350 v2 Mx Oat",
+          "productPrice": "300,00",
+          "productMaterial": "350"
+        },
+        {
+          "productLink": "/product7001.html",
+          "productImgSrc": "/img/arzareth.webp",
+          "productName": "Yeezy 700 v3 Arzareth",
+          "productPrice": "399,00",
+          "productMaterial": "700"
+        },
+        {
+          "productImgSrc": "/img/hi-resred.webp",
+          "productName": "Yeezy 700 v1 Hi-res Red",
+          "productPrice": "284,00",
+          "productMaterial": "700"
+        },
+        {
+          "productImgSrc": "/img/hi-resblue.webp",
+          "productName": "Yeezy 700 v1 Hi-res Blue",
+          "productPrice": "300,00",
+          "productMaterial": "700"
+        },
+        {
+          "productImgSrc": "/img/fadecarbon.webp",
+          "productName": "Yeezy 700 v3 Fade Carbon",
+          "productPrice": "252,00",
+          "productMaterial": "700"
+        },
+        {
+          "productImgSrc": "/img/brightblue.webp",
+          "productName": "Yeezy 700 v1 Bright Blue",
+          "productPrice": "344,00",
+          "productMaterial": "700"
+        }
+      ]
+}
+
+
+
+
+    
+    

@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
-    <script src="/main.js" defer></script>
     <script src="https://kit.fontawesome.com/6f9a774773.js" crossorigin="anonymous"></script>
+    <script src="functions.js"></script>
 </head>
-
 <body>
+       
     <header>
         <a href="/index.html">
             <img class="logo" src="/img/logo.webp" alt="">
         </a>
-
         <section>
-            <a class="header-text" href="/index.html">HOME</a>
+            <a class="header-text" href="/jaar.html">DOOR HET HELE JAAR</a>
             <a class="header-text" href="/Zomer.html">ZOMER COLLECTIE</a>
             <a class="header-text winkelmand" href="/winkelmand.html"><i class="fa-solid fa-cart-shopping fa-xl"></i></i></a>
+            <link rel="stylesheet" href="style.css">
         </section>
     </header>
 
-<div class="peetje1">
-    <label for="nameInput">Product Name: </label>
-    <input type="text" id="nameInput" placeholder="Zoeken...">
-
-    <label for="materialSelect">Model:</label>
-    <select id="materialSelect">
-      <option value="All">All</option>
-      <option value="350">350</option>
-      <option value="700">700</option>
-    </select>
-</div>
-        <span id="priceLabel"></span>
-    
-    <div class="glouck">
-        <input type="range" id="priceRange" min="252" max="400" value="500">
-    </div>
-    <div class="container-Jaap">
+    <section class="jaapie">
+        <img class="product-pagina-img" src="/img/hi-resred.webp" alt="">
+        <ul>
+            <div class="container-h2-product">
+                <h2 class="product-page-h2">Yeezy 350 v1 Hi-res Red </h2>
+                <button style="background-color: rgb(251, 7, 7)" class="kleurbutton a"></button>
+            </div>
+            <div class="kleurselector">
+                <button style="background-color: #9fcef5;" onclick="window.location.href='/product7001.html';"; class="kleurbutton f"></button>
+                <button onclick="window.location.href='/product7003.html';"; class="kleurbutton g"></button>
+                <button onclick="window.location.href='/product7004.html';"; class="kleurbutton h"></button>
+            </div>
+            <h2 class="productpagina-prijs">284,00</h2>
+        </ul>
         
-        <section class="container-kaartje" id="productContainer"></section>
-      </div>
+        
+    </section>
+    
+    <p class="text-productpagina">
+        De nieuwe 700 heeft een mix van mesh, leer en suède, terwijl de overlays, 
+        tong en zool in knalrood zijn uitgevoerd. 
+        Deze worden gecombineerd met strakke zwarte en grijze tinten op het bovenwerk. 
+        De opvallende kleuraccenten op de tussenzool zorgen voor een bijzondere blikvanger.
+        
+    </p>
+    <button onclick="PopUp()" class="product-button">Add to cart</button>
+    
+    <div id="snackbar">Product Toegevoegd aan de winkelwagen!</div>
+    
+   
 
     <footer>
         <section class="footer-content">
@@ -79,7 +83,8 @@
                 <p>Wil je niets missen? Schrijf je nu in voor onze nieuwsbrief en ontvang
                      onze acties en trend als eerste in je mailbox! 
                     Tip! Meld je voor de eerste keer aan? Dan ontvang je een exclusieve kortingscode t.w.v. €5,-.</p>
-                    <button class="aanmelden"> Meld je aan ></button>
+
+                    <button class="aanmelden"> MELD JE AAN! ></button>
 
             </ul>
             
